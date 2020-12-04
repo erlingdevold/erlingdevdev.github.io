@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body{
+ background-color:#1d1b20;
+
+}
+.App {
+  background-color: #1d1b20;
+}
+.title{
+  text-align: center;
+  padding: 1px;
+  height: 10%
+}
+.foot {
+  height: 10%;
+  padding: 10px;
+text-align: center;
+
+
+}
+
+.column{
+  padding:2px;
+  float:left;
+  width: 33.33%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.about{
+  height: 80%;
+  min-height: 40vh;
+  align-items: center;
+  text-align: center;
+}
+.head{
+  background-color: #c1482a;
+  margin: 15% 20%;
+  color: #f4f3f4;
+  border-radius: 20px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
